@@ -32,15 +32,24 @@
 		"ACTION_DELETE_INVENTORIES": "deleteInventories",
 		"ACTION_DELETE_MANY_INVENTORIES": "deleteManyInventories"
 	},		
-	"API_SALES_ACTUAL_SALES_GROUP": {
-		"NAME": "api-sales.actual-sales-group",
-		"ACTION_GET_TOP_GROUP": "getTopGroup",
+    "API_SALES_ACTUAL_SALES_GROUP": {
+        "NAME": "api-sales.actual-sales-group",
+        "ACTION_GET_TOP_GROUP": "getTopGroup",
 		"ACTION_UPDATE_CORRESPOND_TO_ACTUAL_SALES_PRODUCT": "updateCorrspondToActualSalesProduct",
-		"ACTION_DELETE_HIERARCHY": "deleteHierarchy"
-	},
+		"ACTION_DELETE_HIERARCHY": "deleteHierarchy",
+		"ACTION_GET_LIST": "getList",
+		"ACTION_UPDATE": "update",
+		"ACTION_DETAIL_WITH_SUMMARY": "detailWithSummary",
+		"ACTION_CREATE_WITH_NEW_PRODUCTS": "createWithNewProducts",
+		"ACTION_UPLOAD": "upload",
+		"ACTION_DOWNLOAD_EXCEL_TEMPLATE": "downloadExcelTemplate"
+    },
 	"API_SALES_ACTUAL_SALES_PRODUCT": {
 		"NAME": "api-sales.actual-sales-product",
-		"ACTION_UPDATE_AND_RECALCULATE": "update-and-recaculate"
+		"ACTION_UPDATE_AND_RECALCULATE": "update-and-recaculate",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete"
 	},
 	"API_SALES_DEBT_ITEMS": {
 		"NAME": "api-sales.debt-items"
@@ -257,7 +266,8 @@
 		"NAME": "api-purchase.purchaseOrder",
 		"ACTION_GET_DETAIL_PURCHASE_ORDER": "getDetailPurchaseOrder",
 		"ACTION_UPDATE_PURCHASE_ORDER": "updatePurchaseOrder",
-		"ACTION_CREATE_ADDITIONAL_PURCHASE_ORDER": "createAdditionalPurchaseOrder"
+		"ACTION_CREATE_ADDITIONAL_PURCHASE_ORDER": "createAdditionalPurchaseOrder",
+		"ACTION_GET_PAGE_PURCHASE_ORDER": "getPagePurchaseOrder"
 	},
 	"API_PURCHASE_ORDER_VOUCHERS": {
 		"NAME": "api-purchase.orderVouchers",
@@ -545,7 +555,8 @@
 	},
 	"API_HCM_BONUS_ITEMS": {
 		"NAME": "api-hcm.bonusItems",
-		"ACTION_GET_PAGE_SPREADSHEET_VIEW": "getPageSpreadsheetView"
+		"ACTION_GET_PAGE_SPREADSHEET_VIEW": "getPageSpreadsheetView",
+		"ACTION_GET_PAGE_APPROVED": "getPageApproved"
 	},
 	"API_HCM_BONUS_STATUS_HISTORIES": {
 		"NAME": "api-hcm.bonusStatusHistories"
@@ -848,11 +859,17 @@
 		"ACTION_UPLOAD": "upload",
 		"ACTION_GET_AVAILABLE_DATA": "getAvailableData",
 		"ACTION_LOCK_OR_UNlOCK_CASH_FLOW_LIST": "lockOrUnlockCashFlowList",
-		"ACTION_DELETE_ALL_MASTER_DATA": "deleteAllMasterData"
+		"ACTION_DELETE_ALL_MASTER_DATA": "deleteAllMasterData",
+		"ACTION_COUNT": "countCashFlowLists"
 	},
-	"API_BIZCORE_REAL_CASHFLOW_LIST": {
-		"NAME": "api-bizcore.real-cashflow-list"
-	},
+    "API_BIZCORE_REAL_CASHFLOW_LIST": {
+        "NAME": "api-bizcore.real-cashflow-list",
+
+		"ACTION_INSERT_MANY_REAL_CASH_FLOW_LIST": "insertManyRealCashFlowList",
+		"ACTION_INSERT_OR_UPDATE_REAL_CASH_FLOW_LIST": "insertOrUpdateRealCashFlowList",
+		"ACTION_GET_REAL_CASH_FLOW_LIST": "getRealCashFlowList",
+		"ACTION_DELETE_REAL_CASH_FLOW_LIST": "deleteRealCashFlowList"
+    },
 	"API_BIZCORE_ACTUAL_CASHFLOW_LIST": {
 		"NAME": "api-bizcore.actual-cashflow-list",
 		"ACTION_GET_TIME_RANGE_DATA": "getTimeRangeData",
@@ -884,14 +901,15 @@
 		"ACTION_FORMAT_INPUT_TEMPLATE": "formatInputTemplate",
 		"ACTION_GET_TIME_RANGE_DATA": "getTimeRangeData"
 	},
-	"API_BIZCORE_FM01_ALLOCATION_MAPPING": {
+   "API_BIZCORE_FM01_ALLOCATION_MAPPING": {
 		"NAME": "api-bizcore.fm01-allocation-mapping",
 		"ACTION_GET_CLASSIFICATIONS": "getClassifications",
 		"ACTION_UPDATE_CLASSIFICATION": "updateClassification",
 		"ACTION_UPDATE_ALLOCATION": "updateAllocation",
 		"ACTION_SYNC_ALLOCATION": "syncAllocation",
 		"ACTION_GET_ALLOCATIONS": "getAllocations",
-		"ACTION_UPDATE_VERSION_MAPPING": "updateVersionMapping"
+		"ACTION_UPDATE_VERSION_MAPPING": "updateVersionMapping",
+		"ACTION_GET_ALLOCATION_CONFIGS": "getAllocationConfigs"
 	},
 	"API_BIZCORE_FM01_CONFIGURATION": {
 		"NAME": "api-bizcore.fm01-configuration",
@@ -938,9 +956,6 @@
 		"ACTION_UPDATE_TARGET": "updateTarget",
 		"ACTION_INIT_MASTER_DATA": "initMasterData",
 		"ACTION_INIT_TARGET": "initTarget"
-	},
-	"API_BIZCORE_FM03_CONFIG": {
-		"NAME": "api-bizcore.fm03-config"
 	},
 	"API_BIZCORE_FINANCIAL_PLAN_AND_REPORT": {
 		"NAME": "api-bizcore.financial-plan-and-report",
@@ -1077,13 +1092,24 @@
 		"ACTION_UPDATE": "update",
 		"ACTION_DELETE": "delete"
 	},
-	"API_BIZCORE_PROCESS_DETAIL": {
+   "API_BIZCORE_PROCESS_DETAIL": {
 		"NAME": "api-bizcore.processDetail",
 		"ACTION_UPDATE_PD_SEGMENT": "bathcUpdatePdSegment",
-		"ACTION_UPDATE_PD_TO_DO": "bathcUpdatePdToDo"
+		"ACTION_UPDATE_PD_TO_DO": "bathcUpdatePdToDo",
+		"ACTION_GET_TREE_PROCESS_DETAIL": "getTreeProcessDetail",
+		"ACTION_GET_PARENT_ID": "getParentId",
+		"ACTION_GET_TREE_PD_NOT_IN_VALUE_CHAIN": "getTreePDNotInValueChain",
+		"ACTION_GET_PROCESS_DETAIL_REGULATION": "getProcessDetailRegulation",
+		"ACTION_CREATE_PROCESS_DETAIL": "createProcessDetail",
+		"ACTION_UPDATE_PROCESS_DETAIL": "updateProcessDetail",
+		"ACTION_DELETE_PROCESS_DETAIL": "deleteProcessDetail"
 	},
 	"API_BIZCORE_PROCESS": {
 		"NAME": "api-bizcore.process",
+		"ACTION_CREATE_PROCESS": "createProcess",
+		"ACTION_UPDATE_PROCESS": "updateProcess",
+		"ACTION_MODIFY_PROCESS": "modifyProcesses",
+		"ACTION_DELETE_PROCESS": "deleteProcesses",
 		"ACTION_DELETE_MANY_PROCESSES": "deleteManyProcesses"
 	},
 	
@@ -1098,7 +1124,8 @@
 		"ACTION_COUNT_QTY_USED": "countQtyUsed",
 		"ACTION_COUNT": "count",
 		"ACTION_GET_DOWNLOAD_INFO": "getDownloadInfo",
-		"ACTION_UPLOAD": "upload"
+		"ACTION_UPLOAD": "upload",
+		"ACTION_GET_UNASSIGNED_TO_ORG": "getListsUnassignedToOrg"
 	},
 	"SVC_ADMINISTRATION_LIST_MANAGEMENT_CRITERIA": {
 		"NAME": "svc-administration-list.management-criteria",
@@ -1122,6 +1149,7 @@
 		"ACTION_GET_LINKED_CATEGORY_ITEM": "getLinkedCategoryItem",
 		"ACTION_GET_DATA_FOR_DOWNLOAD": "getDataForDownload",
 		"ACTION_GET_LINKED_CATEGORY_LIST": "getLinkedCategoryList"
+		
 	},
 	"SVC_ADMINISTRATION_LIST_ADMINISTRATION_LISTS": {
 		"NAME": "svc-administration-list.administration_lists",
