@@ -1,14 +1,14 @@
 {
-  "name": "@lib/service-broker-constant",
+  "name": "@phongdt/service-broker-constant",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "license": "MIT", 
+  "license": "MIT",
   "scripts": {
     "build": "tsc",
     "clean": "rimraf dist",
     "prepare": "npm run clean && npm run build",
-    "prepublishOnly": "npm run build"           
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "rimraf": "^6.0.1",
@@ -17,5 +17,15 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phongdt0811/services.git"
+  },
+  "author": "Phong Do",
+  "bugs": {
+    "url": "https://github.com/phongdt0811/services/issues"
+  },
+  "homepage": "https://github.com/phongdt0811/services#readme"
 }
