@@ -42,7 +42,8 @@
 		"ACTION_DETAIL_WITH_SUMMARY": "detailWithSummary",
 		"ACTION_CREATE_WITH_NEW_PRODUCTS": "createWithNewProducts",
 		"ACTION_UPLOAD": "upload",
-		"ACTION_DOWNLOAD_EXCEL_TEMPLATE": "downloadExcelTemplate"
+		"ACTION_DOWNLOAD_EXCEL_TEMPLATE": "downloadExcelTemplate",
+        "ACTION_UPLOAD_EXCEL": "uploadExcel"
     },
 	"API_SALES_ACTUAL_SALES_PRODUCT": {
 		"NAME": "api-sales.actual-sales-product",
@@ -366,7 +367,8 @@
 		"ACTION_DELETE_ACTION_PLAN": "deleteActionPlan",
 		"ACTION_DELETE_SALE_PLAN": "deleteSalePlan",
 		"ACTION_BATCH_DELETE": "batchDelete",
-		"ACTION_BATCH_UPDATE_STATUS": "batchUpdateStatus"
+		"ACTION_BATCH_UPDATE_STATUS": "batchUpdateStatus",
+		"ACTION_GET_APPLY_FOR_AVAILABLE": "getApplyForAvailable"
 	},
 	"SVC_SALES_PLAN_DATA_STATISTICS_VIEW": {
 		"NAME": "svc-sales-plan.data-statistics-view",
@@ -1078,11 +1080,6 @@
 		"ACTION_GET_FINANCIAL_YEAR_FROM_CURRENT_FISCAL_ON_WARDS": "getFinancialYearFromCurrentFiscalOnWards",
 		"ACTION_GET_DETAIL": "getDetail",
 		"ACTION_GET_DETAIL_BY_YEAR": "getDetailByYear"
-	},
-	"API_BIZCORE_DEPARTMENTS": {
-		"NAME": "api-bizcore.departments",
-		"ACTION_GET_LIST_DEPARTMENT": "getListDepartment",
-		"ACTION_DELETE_ALL_DEPARTMENT": "deleteAllDepartment"
 	},
 	"API_BIZCORE_VALUE_CHAIN": {
 		"NAME": "api-bizcore.valueChain",
