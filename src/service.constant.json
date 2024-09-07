@@ -636,6 +636,13 @@
 		"ACTION_VERIFY_JWT_TOKEN": "verifyJWTToken",
 		"ACTION_REFRESH_TOKEN": "refreshToken"
 	},
+	"SVC_AUTH_VERIFY_EMAIL_TOKENS": {
+		"NAME": "svc-auth.verify_email_token",
+		"ACTION_FIND_ONE_WITH_OUT_ORGIDS": "findOneWithOutOrgIds",
+		"ACTION_CREATE_WITH_OUT_ORGIDS": "createWithOutOrgIds",
+		"ACTION_DELETE_BY_ID_WITH_OUT_ORGIDS": "deleteByIdWithOutOrgIds",
+		"ACTION_DELETE_MANY_WITH_OUT_ORGIDS": "deleteManyWithOutOrgIds"
+    },
 	"SVC_AUTH_AUTHORIZATIONS_TENANT_ROLE": {
 		"NAME": "svc-auth.authorizations.tenant-role",
 		"ACTION_GET_TENANT_ROLES": "getTenantRoles",
