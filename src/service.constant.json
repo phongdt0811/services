@@ -630,6 +630,16 @@
 		"ACTION_UPDATE_ORG_SETTING": "updateOrgSetting"
 	},
 
+	"SVC_PLATFORM_INTEGRATION": {
+		"NAME": "svc-platform-integration"
+	},
+	"SVC_PLATFORM_VERIFY": {
+		"NAME": "svc-platform-integration.authorize",
+
+		"ACTION_GET_TOKEN": "getToken",
+		"ACTION_CREATE_TOKEN_REDIRECT": "createTokenRedirect"
+	},
+
 	"SVC_AUTH_AUTHENTICATIONS": {
 		"NAME": "svc-auth.authentications",
 		"ACTION_LOGIN": "login",
@@ -721,7 +731,8 @@
 		"ACTION_GET_ORGANIZATION": "getOrganization",
 		"ACTION_UPDATE_ORGANIZATION": "updateOrganization",
 		"ACTION_DELETE_ORGANIZATION": "deleteOrganization",
-		"ACTION_EXPORT_ORGANIZATION": "exportOrganization"
+		"ACTION_EXPORT_ORGANIZATION": "exportOrganization",
+		"ACTION_IMPORT_ORGANIZATION": "importOrganization"
 	},
 	"SVC_ORGANIZATION_DEPARTMENTS": {
 		"NAME": "svc-organization.departments",
@@ -1075,7 +1086,8 @@
 		"ACTION_UPDATE_COLUMN_PRODUCT_ITEM": "updateColumnProductItem",
 		"ACTION_GET_COLUMN_PRIORITIES_PRODUCT_ITEM": "getColumnPrioritiesProductItem",
 		"ACTION_GET_DASHBOARD_SETTINGS": "getDashboardSettings",
-		"ACTION_UPDATE_DASHBOARD_SETTING": "updateDashboardSettings"
+		"ACTION_UPDATE_DASHBOARD_SETTING": "updateDashboardSettings",
+		"ACTION_GET_MASTER_DATA": "getMasterData"
 	},
 	"API_BIZCORE_FINANCIAL_YEAR": {
 		"NAME": "api-bizcore.financial-year",
