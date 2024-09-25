@@ -1273,14 +1273,6 @@
 		"ACTION_LOCK": "lock",
 		"ACTION_UPLOAD": "upload"
 	},
-	"SVC_ADMINISTRATION_LIST_CONTRACT_CONTENTS": {
-		"NAME": "svc-administration-list.contract_contents",
-		"ACTION_GET_LIST": "getList",
-		"ACTION_GET_DETAIL": "getDetail",
-		"ACTION_CREATE": "createContractContent",
-		"ACTION_UPDATE": "updateContractContent",
-		"ACTION_DELETE": "deleteContractContent"
-	},
 	"SVC_ADMINISTRATION_LIST_CONTRACT_LISTS": {
 		"NAME": "svc-administration-list.contract_lists",
 		"ACTION_GET_LIST": "getList",
@@ -1289,6 +1281,22 @@
 		"ACTION_GET_CONTRACT_TYPE_DETAIL": "getContractTypeDetail",
 		"ACTION_GET_DETAIL": "getDetail",
 		"ACTION_COUNT": "count",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+	"SVC_ADMINISTRATION_LIST_CONTRACT_LIBRARIES": {
+		"NAME": "svc-administration-list.contract_libraries",
+		"ACTION_GET_LIST": "getList",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+	"SVC_ADMINISTRATION_LIST_CONTRACT_KEYS": {
+		"NAME": "svc-administration-list.contract_keys",
+		"ACTION_GET_LIST": "getList",
+		"ACTION_GET_DETAIL": "getDetail",
 		"ACTION_CREATE": "create",
 		"ACTION_UPDATE": "update",
 		"ACTION_DELETE": "delete"
