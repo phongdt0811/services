@@ -1353,6 +1353,11 @@
 	"SVC_SALE_PLAN_FM01_CLASSIFICATION_MAPPING": {
 		"NAME": "svc-sales-plan.fm01-classification-mapping"
 	},
+	"ACTIVITY_LOGS": {
+		"NAME": "activityLog",
+
+		"ACTION_GET_ACTIVITIES": "getActivities"
+	},
 	"COMMON_METHODS": {
 		"FIND": "_find",
 		"CREATE": "_create",
