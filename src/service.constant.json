@@ -833,7 +833,28 @@
 		"ACTION_UPDATE_MANY_PRODUCT_ITEM": "updateManyProduct",
 		"ACTION_DELETE_PRODUCT_ITEM": "deleteProduct"
 	},			
+    "SVC_PRODUCT_SETTING": {
+		"NAME": "svc-product.productSetting",
+		"ACTION_GET_SETTING": "getSetting",
+		"ACTION_ADD_TAG": "addTag",
+		"ACTION_UPDATE_TAG": "updateTag",
+		"ACTION_REMOVE_TAG": "removeTag",
+		"ACTION_BATCH_UPDATE_OTHER": "batchUpdateOther",
+		"ACTION_ADD_ATTRIBUTE": "addAttribute",
+		"ACTION_UPDATE_ATTRIBUTE": "updateAttribute",
+		"ACTION_REMOVE_ATTRIBUTE": "removeAttribute",
+		"ACTION_BATCH_UPDATE_TAX": "batchUpdateTax",
+		"ACTION_UPDATE_ACTIVE_ATTRIBUTE": "updateActiveAttribute",
+		"ACTION_UPDATE_FIELD": "updateField"
+	},
 
+	"SVC_PRODUCT_VARIANT": {
+		"NAME": "svc-product.productVariant"
+	},
+
+	"SVC_PRODUCT_DETAIL": {
+		"NAME": "svc-product.productDetail"
+	},
 	"API_BIZCORE_BSC_VERSION": {
 		"NAME": "api-bizcore.bsc-version"
 	},
