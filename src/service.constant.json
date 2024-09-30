@@ -1379,7 +1379,8 @@
 	"ACTIVITY_LOGS": {
 		"NAME": "activityLog",
 
-		"ACTION_GET_ACTIVITIES": "getActivities"
+		"ACTION_GET_ACTIVITIES": "getActivities",
+		"ACTION_CREATE_ACTIVITIES": "createActivities"
 	},
 	"COMMON_METHODS": {
 		"FIND": "_find",
