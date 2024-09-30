@@ -1283,7 +1283,9 @@
 		"ACTION_COUNT": "count",
 		"ACTION_CREATE": "create",
 		"ACTION_UPDATE": "update",
-		"ACTION_DELETE": "delete"
+		"ACTION_DELETE": "delete",
+        "ACTION_IMPORT": "import",
+        "ACTION_LOCK_UNLOCK": "lockUnlock"
 	},
 	"SVC_ADMINISTRATION_LIST_CONTRACT_LIBRARIES": {
 		"NAME": "svc-administration-list.contract_libraries",
