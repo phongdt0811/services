@@ -1,4 +1,20 @@
 {
+    "SVC_ADMINISTRATION_LIST_CUSTOMER": {
+		"NAME": "svc-administration-list.customers",
+		"ACTION_GET_PAGE": "getPage",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_GET_TAX_CODE": "getTaxCode",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE_MANY": "deleteMany",
+		"ACTION_LOCK_UNLOCK": "lockUnlock",
+		"ACTION_UPLOAD": "upload"
+	},
+
+	"SVC_ADMINISTRATION_LIST_CUSTOMER_DETAIL": {
+		"NAME": "svc-administration-list.customer-details"
+	},
+	
 	"API_WAREHOUSE_SETTINGS": {
 		"NAME": "api-warehouse.settings",
 		"ACTION_GET_MASTER_DATA": "getOrCreateMasterData",
