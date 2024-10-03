@@ -1,4 +1,9 @@
 {
+	"MIGRATIONS": {
+		"NAME": "svc-migrations",
+		"ACTION_INIT_MASTER_DATA": "initMasterData",
+		"ACTION_MIGRATION_MASTER": "migrationsMaster"
+	},
     "SVC_ADMINISTRATION_LIST_CUSTOMER": {
 		"NAME": "svc-administration-list.customers",
 		"ACTION_GET_PAGE": "getPage",
@@ -760,6 +765,7 @@
 		"ACTION_GET_DEPARTMENT_FLAT_LISTS": "getDepartmentFlatLists",
 		"ACTION_GET_TREE_DEPARTMENTS": "getTreeDepartments",
 		"ACTION_GET_DEPARTMENT_DETAIL": "getDepartmentDetail",
+		"ACTION_GET_FLAT_TREE_DEPARTMENT_IDS": "getFlatTreeDepartmentIds",
 		"ACTION_UPDATE_MANY_DEPARTMENT": "updateManyDepartment",
 		"ACTION_CHANGE_COLOR_DEPARTMENTS": "changeColorDepartments",
 		"ACTION_UPDATE_DEPARTMENT": "updateDepartment",
@@ -1397,6 +1403,41 @@
 
 		"ACTION_GET_ACTIVITIES": "getActivities",
 		"ACTION_CREATE_ACTIVITIES": "createActivities"
+	},
+	"SETTING_COMMON": {
+		"NAME": "settingCommon",
+
+		"ACTION_GET": "get",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+
+	"SETTING_ACCESS_TOKEN": {
+		"NAME": "settingAccessToken",
+
+		"ACTION_GET": "get",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+
+	"SETTING_FINANCIAL_YEAR": {
+		"NAME": "settingFinancialYear",
+
+		"ACTION_GET": "get",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+
+	"SETTING_ECOMMERCE_PLATFORM": {
+		"NAME": "settingEcommercePlatform",
+
+		"ACTION_GET": "get",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete"
 	},
 	"COMMON_METHODS": {
 		"FIND": "_find",
