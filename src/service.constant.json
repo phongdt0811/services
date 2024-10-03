@@ -871,7 +871,8 @@
 	},
 
 	"SVC_PRODUCT_VARIANT": {
-		"NAME": "svc-product.productVariant"
+		"NAME": "svc-product.productVariant",
+		"ACTION_GET_VARIANT": "getVariant"
 	},
 
 	"SVC_PRODUCT_DETAIL": {
