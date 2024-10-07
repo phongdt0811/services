@@ -1052,7 +1052,8 @@
 		"ACTION_UPDTE_VERSION_MAPPING": "updateVersionMapping",
 		"ACTION_GET_TARGET_BY_BSC_VERSION": "getTagetByBscVersion",
 		"ACTION_GET_REPORT": "getReport",
-		"ACTION_RESET_DATA": "resetData"
+		"ACTION_RESET_DATA": "resetData",
+		"ACTION_GET_STATISTICAL_FM01_DATA": "getStatisticalFM01Data"
 	},
 	"API_BIZCORE_FM01_TARGET": {
 		"NAME": "api-bizcore.fm01-target",
