@@ -104,7 +104,8 @@
 	},
 	"API_SALES_LEAD": {
 		"NAME": "api-sales.lead",
-		"ACTION_SYNC_DATA": "sync-data"
+		"ACTION_SYNC_DATA": "sync-data",
+		"ACTION_COUNT_LEAD_BY_EMPLOYEE": "countLeadByEmployee"
 	},
 	"API_SALES_LEAD_PRODUCT": {
 		"NAME": "api-sales.lead-product",
