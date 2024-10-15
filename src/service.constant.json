@@ -393,7 +393,8 @@
 		"ACTION_DELETE_SALE_PLAN": "deleteSalePlan",
 		"ACTION_BATCH_DELETE": "batchDelete",
 		"ACTION_BATCH_UPDATE_STATUS": "batchUpdateStatus",
-		"ACTION_GET_APPLY_FOR_AVAILABLE": "getApplyForAvailable"
+		"ACTION_GET_APPLY_FOR_AVAILABLE": "getApplyForAvailable",
+		"ACTION_GET_STATISTICAL_FOR_HCM": "getStatisticalForHCM"
 	},
 	"SVC_SALES_PLAN_DATA_STATISTICS_VIEW": {
 		"NAME": "svc-sales-plan.data-statistics-view",
