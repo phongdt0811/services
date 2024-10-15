@@ -114,6 +114,9 @@
 	"API_SALES_LEAD_STATUS": {
 		"NAME": "api-sales.lead-status"
 	},
+	"API_SALES_LEAD_HISTORY": {
+		"NAME": "api-sales.lead-history"
+	},
 	"API_SALES_LEAD_NEGOTIATION_DETAIL": {
 		"NAME": "api-sales.lead-negotiation-detail"
 	},
@@ -673,7 +676,8 @@
 		"ACTION_FIND_ONE_WITH_OUT_ORGIDS": "findOneWithOutOrgIds",
 		"ACTION_CREATE_WITH_OUT_ORGIDS": "createWithOutOrgIds",
 		"ACTION_DELETE_BY_ID_WITH_OUT_ORGIDS": "deleteByIdWithOutOrgIds",
-		"ACTION_DELETE_MANY_WITH_OUT_ORGIDS": "deleteManyWithOutOrgIds"
+		"ACTION_DELETE_MANY_WITH_OUT_ORGIDS": "deleteManyWithOutOrgIds",
+		"ACTION_CREATE_WITH_OUT_ORGIDS_BYPASS_AUTH": "createWithOutOrgIdsByPassAuth"
     },
 	"SVC_AUTH_AUTHORIZATIONS_TENANT_ROLE": {
 		"NAME": "svc-auth.authorizations.tenant-role",
