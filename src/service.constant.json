@@ -1237,6 +1237,7 @@
 		"ACTION_GET_BY_IDS": "getByIds",
 		"ACTION_GET_DETAIL": "getDetail",
 		"ACTION_UPDATE": "update",
+		"ACTION_UPLOAD": "upload",
 		"ACTION_DELETE": "delete"
 	},
 	"SVC_ADMINISTRATION_LIST_METHOD_LIST": {
