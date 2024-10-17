@@ -140,6 +140,7 @@
 		"ACTION_GET_DETAIL_SALE_ORDER": "getDetailSaleOrder",
 		"ACTION_GET_CREATE_SALE_ORDER": "createSaleOrder",
 		"ACTION_UPDATE_SALE_ORDER": "updateSaleOrder",
+		"ACTION_UPDATE_STATUS_SALE_ORDER": "updateStatusSaleOrder",
 		"ACTION_DELETE_SALE_ORDER": "deleteSaleOrder",
 		"ACTION_DELETE_MANY_SALE_ORDERS": "deleteManySaleOrders",
 		"ACTION_GET_SO_FOR_DELIVERY_ORDERS": "getSOForDeliveryOrders",
