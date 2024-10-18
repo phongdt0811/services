@@ -1438,7 +1438,8 @@
 		"ACTION_GET": "get",
 		"ACTION_CREATE": "create",
 		"ACTION_UPDATE": "update",
-		"ACTION_DELETE": "delete"
+		"ACTION_DELETE": "delete",
+		"ACTION_GET_SYNC_METHOD_WITH_COUNT_DATA": "getSyncMethodWithCountData"
 	},
 
 	"SETTING_ECOMMERCE_PLATFORM": {
